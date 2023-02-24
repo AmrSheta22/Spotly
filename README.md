@@ -13,7 +13,7 @@ The project consists of two parts, the chrome extesion where you can find the fr
 ## installation 
 - first install the dependencies in requirments.txt.
 ```
-pip install - r requirements.txt
+pip install - r  {download_directory}\requirements.txt
 ```
 
 - open chrome -> more tools -> extensions -> turn developer mode on then choose load unpacked and load the highlighting_extension folder 
