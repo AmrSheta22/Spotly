@@ -1,0 +1,20 @@
+{
+    "name": "Spotly",
+    "version": "1.0.0",
+    "description": "An extension that marks the important words in a text in paragraphs and sentences using the power of AI.",
+    "permissions": ["storage", "tabs", "activeTab", "alarms", "notifications", "webRequest", "contextMenus", "scripting"],
+    "manifest_version": 3,
+    "action":{
+        "default_popup": "index.html"},
+    "background": {"service_worker": "background.js"},
+    "content_scripts": [
+        {
+            "matches": ["http://*/*", "https://*/*"],
+            "js": ["script.js"]
+        }],
+    "host_permissions": ["<all_urls>"],
+    "icons": {
+        "48": "icon48.png",
+        "128": "icon128.png"
+    }
+}
