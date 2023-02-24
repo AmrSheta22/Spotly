@@ -1,0 +1,5 @@
+###### required packages to be installed
+transformers
+torch
+flask
+flask_cors
