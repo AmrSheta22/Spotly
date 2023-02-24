@@ -19,6 +19,6 @@ pip install - r requirements.txt
 - open chrome -> more tools -> extensions -> turn developer mode on then choose load unpacked and load the highlighting_extension folder 
 - open flask_api.py by running it with python, this might take a long time on your first load.
 ```
-python {download_directory}/flask_api.py
+python {download_directory}\highlighting_api\flask_api.py
 ```
 - pin the extension and have fun! <3
