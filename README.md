@@ -16,9 +16,11 @@ The project consists of two parts, the chrome extesion where you can find the fr
 pip install - r  {download_directory}\requirments.txt
 ```
 
-- open chrome -> type in chrome://settings/ -> more tools -> extensions -> turn developer mode on then choose load unpacked and load the highlighting_extension folder 
-- open flask_api.py by running it with python, this might take a long time on your first load.
+- open chrome -> type in chrome://settings/ -> extensions -> turn developer mode on -> choose load unpacked -> load the highlighting_extension folder 
+- open flask_api.py by running it with python by running the code below, this might take a long time on your first load since it automatically downloads the model.
 ```
 python {download_directory}\highlighting_api\flask_api.py
 ```
+- wait for till it shows that the api is running on the server.
+- Don't close the flask_api.py file as long as you want the extension to work.
 - pin the extension and have fun! <3
