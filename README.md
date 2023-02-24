@@ -21,6 +21,6 @@ pip install - r  {download_directory}\requirments.txt
 ```
 python {download_directory}\highlighting_api\flask_api.py
 ```
-- wait for till it shows that the api is running on the server.
+- wait for it till shows that the api is running on the server.
 - Don't close the flask_api.py file as long as you want the extension to work.
 - pin the extension and have fun! <3
